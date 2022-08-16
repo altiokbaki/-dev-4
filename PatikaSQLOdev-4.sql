@@ -12,7 +12,7 @@ From film
 
 Select Count(title)
 From film
-Where title Like 'T%'
+Where title Like 'T%' AND rating = 'G';
 
 --country tablosunda bulunan ülke isimlerinden (country) kaç tanesi 5 karakterden oluşmaktadır?
 
